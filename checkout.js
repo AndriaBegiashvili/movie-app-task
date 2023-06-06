@@ -24,7 +24,7 @@ movieDesc.innerHTML =  `
 </div>
 <div class="col-8">
     <h3 class="text-white">total price: ${price}$</h3> 
-    ${seats.map(seat => `<p class="text-white">seats: ${seat.id}</p>`).join('')}
+    ${seats.map(seat => `<p class="text-white">seat: ${seat.id}</p>`).join('')}
     <a href="index.html"><button style="width: auto" class="btn btn-primary">Checkout</button>  </a>
     </div>
 </div>
